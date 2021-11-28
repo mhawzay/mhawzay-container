@@ -1,0 +1,20 @@
+{
+  "name": "mhawzay-container",
+  "version": "0.1.0",
+  "description": "This is a container to simulate both docker container for supabase and firebase emulator",
+  "scripts": {
+    "firebase": "cd firebase && firebase emulators:start",
+    "supabase": "cd supabase/docker && docker-compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhawzay/mhawzay-container.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhawzay/mhawzay-container/issues"
+  },
+  "homepage": "https://github.com/mhawzay/mhawzay-container#readme"
+}

@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "shops": {
+      ".indexOn": [
+        "uid",
+        "name",
+        "status",
+        "user_id",
+        "category"
+      ]
+    }
+  }
+}
